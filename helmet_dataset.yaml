@@ -1,0 +1,12 @@
+
+
+path: /home/lucas/tcc/dataset/ # dataset root dir
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+# Classes
+names:
+  0: helmet
+  1: person
+  2: head
