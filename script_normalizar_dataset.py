@@ -1,9 +1,9 @@
 #  The paths must end with '/'.      
-absolutepath_of_directory_with_xmlfiles = '/home/lucas/tcc/dataset/annotations/'  #　It is okay to have a mix of xml files and images in the same directory.
-absolutepath_of_directory_with_imgfiles = '/home/lucas/tcc/dataset/valid/images/'
-absolutepath_of_directory_with_yolofiles = '/home/lucas/tcc/dataset/valid/labels/'  # Yolo files will be created under this directory.
-absolutepath_of_directory_with_classes_txt = '/home/lucas/tcc/dataset/'  # You do not need to create classes.txt. classes.txt will be generated automatically.
-absolutepath_of_directory_with_error_txt = '/home/lucas/tcc/dataset/'  # The file names of files that do not have a paired xml or image file will be written to a text file under this directory.
+absolutepath_of_directory_with_xmlfiles = '/home/lucas-gianordoli/Documents/dataset/annotations/'  #　It is okay to have a mix of xml files and images in the same directory.
+absolutepath_of_directory_with_imgfiles = '/home/lucas-gianordoli/Documents/dataset/images/'
+absolutepath_of_directory_with_yolofiles = '/home/lucas-gianordoli/safety_helmet_identify/dataset/labels/'  # Yolo files will be created under this directory.
+absolutepath_of_directory_with_classes_txt = '/home/lucas-gianordoli/safety_helmet_identify/dataset/'  # You do not need to create classes.txt. classes.txt will be generated automatically.
+absolutepath_of_directory_with_error_txt = '/home/lucas-gianordoli/safety_helmet_identify/dataset/'  # The file names of files that do not have a paired xml or image file will be written to a text file under this directory.
 
 
 import os
